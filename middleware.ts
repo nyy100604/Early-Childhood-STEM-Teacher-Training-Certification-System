@@ -17,31 +17,6 @@ const routes = [
   "/certificate-manage",
 ];
 
-const dynamicRoutePrefixes = ["/certificate-upload/"];
-
-const isRouteExist = (pathname: string) => {
-  // console.log("pathname", pathname);
-  // Check if the pathname exactly matches any static route
-  if (routes.includes(pathname)) {
-    // console.log("included routes");
-
-    return true;
-  }
-
-  if (pathname === "/certificate-upload") {
-    return false;
-  }
-
-  // Check if the pathname starts with any of the dynamic route prefixes
-  for (const prefix of dynamicRoutePrefixes) {
-    if (pathname.startsWith(prefix)) {
-      return true;
-    }
-  }
-
-  return false;
-};
-
 export default auth((req) => {
   const user = req.auth?.user as {
     email: string;
@@ -62,12 +37,6 @@ export default auth((req) => {
   const profilemanage = new URL("/profile-manage", req.url);
   const unAuthorized = new URL("/unAuthorized", req.url);
   const notFoundurl = new URL("/404", req.url);
-
-  if (!isRouteExist(pathname)) {
-    console.log("!isRouteExist", !isRouteExist(pathname));
-
-    return NextResponse.redirect(notFoundurl);
-  }
 
   // If the user is not logged in and tries to access protected routes, redirect to login
   if (
