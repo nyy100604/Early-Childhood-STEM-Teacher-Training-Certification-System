@@ -1,5 +1,5 @@
 import { mongodbConnect } from "@/MongoDb/connect";
-import { UploadToGcsForTeachingFile } from "@/lib/uploadToGcsForTeachingFile";
+import { UploadToGcsForTeachingFile } from "@/lib/UploadToGcsForTeachingFile";
 import TeachingInfo from "@/MongoDb/schema/teachingInfo";
 
 export async function POST(req: Request) {
