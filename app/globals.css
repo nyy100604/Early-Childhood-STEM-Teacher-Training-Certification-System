@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.text-outline {
+  -webkit-text-stroke: 2px #000000;
+}
+
+.text-outline-hover {
+  -webkit-text-stroke: 2px #7165ff;
+}
+
+@layer base {
+  body {
+    @apply bg-bg;
+  }
+  h1 {
+    @apply font-extrabold;
+  }
+  p {
+    @apply font-normal;
+  }
+  .containerTop {
+    @apply pt-[200px];
+  }
+}
