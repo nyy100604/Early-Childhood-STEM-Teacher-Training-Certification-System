@@ -22,7 +22,6 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-  auth: React.ReactNode;
 }>) {
   return (
     <html lang="zh-Hant">
