@@ -15,7 +15,7 @@ Our platform aims to provide a secure, transparent, and efficient certificate ma
 
 ## Video Introduction
 
-Here is a video introduction to the Temperature Insurance platform:
+Here is a video introduction to the system:
 
 [![Watch the video](./public//home//hero.png)](https://youtu.be/OP0Wdt7YDf8)
 
