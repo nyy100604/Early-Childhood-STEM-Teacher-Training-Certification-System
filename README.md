@@ -17,12 +17,7 @@ Our platform aims to provide a secure, transparent, and efficient certificate ma
 
 Here is a video introduction to the Temperature Insurance platform:
 
-you can watch it directly here:
-
-<video width="320" height="240" controls>
-  <source src="https://youtu.be/OP0Wdt7YDf8" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](./public//home//hero.png)](https://youtu.be/OP0Wdt7YDf8)
 
 ## Getting Started
 
