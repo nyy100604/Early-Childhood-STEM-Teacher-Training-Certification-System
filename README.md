@@ -65,8 +65,8 @@ Common Routes
 - **/signup**
   Allows new users to create an account.
 
-  - **/certificate-lookup**
-    Enables users to search and verify certificates.
+- **/certificate-lookup**
+  Enables users to search and verify certificates.
 
 Teacher Routes
 
