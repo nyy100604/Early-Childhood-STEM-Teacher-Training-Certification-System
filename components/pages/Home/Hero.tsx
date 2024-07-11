@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import BtnHoverCard from "./BtnHoverCard";
-import Link from "next/link";
 import Header from "@/components/common/Header/Header";
 
 const Hero = () => {
