@@ -13,6 +13,17 @@ Our platform aims to provide a secure, transparent, and efficient certificate ma
 - **User-Friendly Interface**: Intuitive interface for browsing, querying, creating, and uploading certificates.
 - **Security**: Robust security measures to protect personal and certificate information.
 
+## Video Introduction
+
+Here is a video introduction to the Temperature Insurance platform:
+
+you can watch it directly here:
+
+<video width="320" height="240" controls>
+  <source src="https://youtu.be/OP0Wdt7YDf8" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Getting Started
 
 To start using or developing this project, follow the steps below.
