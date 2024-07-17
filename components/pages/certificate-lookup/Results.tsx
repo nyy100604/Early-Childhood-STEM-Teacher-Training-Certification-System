@@ -122,7 +122,7 @@ const Results = ({
             </div>
           )}{" "}
           {teacherInfo && (
-            <div className="bg-black/60 text-white px-10 py-4 h-[50vh] overflow-y-scroll lg:h-full lg:rounded-3xl lg:rounded-br-none">
+            <div className="bg-black/60 w-full text-white px-10 py-4 h-[50vh] overflow-y-scroll lg:h-full lg:rounded-3xl lg:rounded-br-none">
               <h1 className="text-[36px]">教學資料</h1>
               <div className="py-4">
                 {" "}
